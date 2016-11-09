@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>NCCU_MUSIC</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/gallery.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <!--  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button> -->
+                <a class="navbar-brand" href="#">NCCU_MUSIC</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div> -->
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Full Page Image Background Carousel Header -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-xs-6 thumb">
+                <a href="img/img_1.png" data-imagelightbox="b" class="thumbnail"><img src="img/img_1.png" alt="" class="img-responsive" style="height:260px;width:350px"></a>
+            </div>
+            <div class="col-lg-4 col-xs-6 thumb">
+                <a href="img/img_2.png" data-imagelightbox="b" class="thumbnail"><img src="img/img_2.png" alt=" " class="img-responsive" style="height:260px;width:350px"></a>
+            </div>
+            <div class="col-lg-4 col-xs-6 thumb">
+                <a href="img/img_3.png" data-imagelightbox="b" class="thumbnail"><img src="img/img_3.png" alt="" class="img-responsive" style="height:260px;width:350px"></a>
+            </div>
+        </div>
+    </div>
+    <!-- Music -->
+    <section id="music ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-12 ">
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/205774942&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page Content -->
+    <section id="info ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6">
+                    <h1>齊豫 橄欖樹</h1>
+                    <p>不要問我從哪裡來　我的故鄉在遠方 為什麼流浪　流浪遠方　流浪 為了天空飛翔的小鳥　為了山間輕流的小溪 為了寬闊的草原　流浪遠方　流浪 還有還有　為了夢中的橄欖樹橄欖樹 不要問我從哪裡來　我的故鄉在遠方 為什麼流浪　為什麼流浪　遠方 不要問我從哪裡來　我的故鄉在遠方 為什麼流浪　流浪遠方　流浪為了我　夢中的橄欖樹
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h1>資訊</h1>
+                    <p>依稀記得生命中每一次旅行 都像一場流浪 從大學流浪到社會 或從戀愛流浪進單身 流浪是生命必經的過程 而這過程始終沾染了潮濕的眼淚及回憶
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer ">
+        <div class="container">
+            <hr>
+            <!-- Footer -->
+            <footer>
+                <div class="row ">
+                    <div class="col-lg-12 ">
+                        <p>NCCU_MUSIC</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </footer>
+        </div>
+    </section>
+    <!-- /.container -->
+    <!--soundcloud-->
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js "></script>
+    <!-- jQuery -->
+    <script src="js/jquery.js "></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js "></script>
+    <!-- Imagelightbox -->
+    <script src="js/imagelightbox.js "></script>
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 3000 //changes the speed
+    })
+    $(function() {
+        $('a').imageLightbox();
+    });
+    </script>
+</body>
+
+</html>
